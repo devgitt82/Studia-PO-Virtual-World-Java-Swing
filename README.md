@@ -1,4 +1,4 @@
-# Wirtualny Świat - wersja C++.
+# Wirtualny Świat - wersja Java Swing.
 
 **Cel Projektu**
 ---
@@ -49,12 +49,10 @@ Symulator ma mieć charakter turowy. W każdej turze wszystkie organizmy istniej
 >
 > ![Tabela 2](/img/tabela2.png)
 > 
-> Stwórz klasę Świat zawierającą dwuwymiarową tablicę wskaźników na obiekty klasy Organizm. Zaimplementuj przebieg tury, wywołując metody akcja() dla wszystkich organizmów oraz kolizja() dla organizmów na tym
+> Stwórz klasę Świat zawierającą dwuwymiarową tablicę referencji na obiekty klasy Organizm. Zaimplementuj przebieg tury, wywołując metody akcja() dla wszystkich organizmów oraz kolizja() dla organizmów na tym
 samym polu. Pamiętaj, że kolejność wywoływania metody akcja() zależy od inicjatywy (lub wieku, w przypadku równych wartości inicjatyw) organizmu.
 Organizmy mają możliwość wpływania na stan świata. Dlatego istnieje konieczność przekazania metodom akcja() oraz kolizja() parametru określającego obiekt klasy Świat. Postaraj się, aby klasa Świat definiowała jako publiczne składowe tylko takie pola i metody, które są potrzebne
 pozostałym obiektom aplikacji do działania. Pozostałą funkcjonalność świata staraj się zawrzeć w składowych prywatnych.
 > 
-> Wizualizację świata należy przeprowadzić w konsoli. Każdy organizm jest reprezentowany przez inny symbol ASCII. Naciśnięcie jednego z klawiszy powoduje przejście do kolejnej tury, wyczyszczenie konsoli i ponowne wypisanie odpowiednich symboli, reprezentujących zmieniony stan gry. Co najmniej jedna linia tekstu w konsoli przeznaczona jest na raportowanie wyników
-zdarzeń takich jak jedzenie lub wynik walki.
-
+> Wymagane jest użycie reprezentacji graficznej z wykorzystaniem biblioteki Swing. Funkcje aplikacji (takie jak przejście do kolejnej tury czy zapis i wczytanie stanu świata) realizuj przez komponenty biblioteki Swing, takie jak przyciski i elementy menu.
 
