@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.s178201.World.WorldEngine">
+  <grid id="27dc6" binding="formMainPanel_" layout-manager="GridLayoutManager" row-count="3" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1172" height="718"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <foreground color="-1"/>
+      <preferredSize width="-1" height="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <toolbar id="33f8f">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="827e2" class="javax.swing.JButton" binding="startNewGameButton_" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Start New Game"/>
+            </properties>
+          </component>
+          <component id="17131" class="javax.swing.JButton" binding="nextTurnButton_">
+            <constraints/>
+            <properties>
+              <text value="Next Turn"/>
+              <visible value="true"/>
+            </properties>
+          </component>
+          <component id="27304" class="javax.swing.JButton" binding="loadGameButton_">
+            <constraints/>
+            <properties>
+              <label value="Load Game"/>
+              <text value="Load Game"/>
+            </properties>
+          </component>
+          <component id="fc5c4" class="javax.swing.JButton" binding="saveGameButton_">
+            <constraints/>
+            <properties>
+              <text value="Save Game"/>
+              <visible value="true"/>
+            </properties>
+          </component>
+          <component id="9ba5f" class="javax.swing.JButton" binding="quitGameButton_">
+            <constraints/>
+            <properties>
+              <font/>
+              <text value="Quit Game"/>
+            </properties>
+          </component>
+          <component id="10639" class="javax.swing.JButton" binding="returnToMainMenuButton_">
+            <constraints/>
+            <properties>
+              <autoscrolls value="false"/>
+              <text value="Return to Main Menu"/>
+              <visible value="true"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+      <grid id="5e027" binding="titlePanel_" custom-create="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="500" height="80"/>
+            <maximum-size width="600" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-2361857"/>
+          <focusable value="true"/>
+          <foreground color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="31ce4" binding="drawPanel_" custom-create="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="482" height="482"/>
+            <maximum-size width="530" height="482"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <scrollpane id="c9eb6" binding="logScrollPane_" custom-create="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="350" height="482"/>
+            <preferred-size width="350" height="482"/>
+            <maximum-size width="350" height="482"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="66e83" class="javax.swing.JTextArea" binding="logTextArea_" custom-create="true" default-binding="true">
+            <constraints/>
+            <properties>
+              <background color="-16039615"/>
+              <font name="Franklin Gothic Heavy" size="16" style="0"/>
+              <foreground color="-1"/>
+              <name value=""/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
