@@ -30,7 +30,7 @@ Symulator ma mieć charakter turowy. W każdej turze wszystkie organizmy istniej
 > * `akcja()` → określa zachowanie organizmu w trakcie tury,
 > * `kolizja()` → określa zachowanie organizmu w trakcie kontaktu/zderzenia z innym organizmem,
 > * `rysowanie()` → powoduje narysowanie symbolicznej reprezentacji organizmu.
-> Klasa `Organizm` powinna być abstrakcyjna. Dziedziczyć po niej powinny dwie kolejne abstrakcyjne klasy: `Roślina` oraz `Zwierzę.``
+> Klasa `Organizm` powinna być abstrakcyjna. Dziedziczyć po niej powinny dwie kolejne abstrakcyjne klasy: `Roślina` oraz `Zwierzę.`
 >
 > W klasie `Zwierze` należy zaimplementować wspólne dla wszystkich/większości zwierząt zachowania, przede wszystkim:
 > * podstawową formę ruchu w metodzie `akcja()` → każde typowe zwierze w swojej turze przesuwa się na wybrane losowo, sąsiednie pole,
